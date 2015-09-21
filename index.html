@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>baklengs</title>
+<script>
+	
+window.onload = oppstart; 
+function oppstart() {
+
+	
+    for (var tall = 100; tall > -1; tall--) {
+		
+		if( tall === 100) {
+			document.getElementById("numlist").innerHTML += tall;
+		}
+		else {
+			document.getElementById("numlist").innerHTML += ", " + tall;
+		}
+	}
+
+}
+	
+
+</script>
+<style>
+</style>
+</head>
+<body>
+    <p id="numlist"></p>
+</body>
+</html>
+
+
