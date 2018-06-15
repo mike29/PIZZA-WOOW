@@ -1,3 +1,3 @@
 # testgit
-to test git
-fdgerbearny
+test git
+First year, first website in 2015 ;)
